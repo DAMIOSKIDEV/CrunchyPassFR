@@ -1,22 +1,22 @@
-# CRP Iframe Player
+# CRP Iframe Player / Crunchyroll Bypass
 **Original repo: https://github.com/itallolegal/crp-iframe-player**
 
-- Criado: itallolegal e Hyper1025
-- Atualização: _Mateus7G
+- Relancé par: itallolegal e Hyper1025
+- Mise à jour par: _Mateus7G
 
 ## Crunchyroll Premium
-### Script para Tampermonkey 
+### Script par Tampermonkey 
 - tampermonkey/CrunchyrolliFramePlayer.user.js
 
-**UserScript feito pelo JarEdMaster, o código oficial do player pelo itallolegal**
+**UserScript fait par JarEdMaster, le code officiel du player par itallolegal**
 
-### Extensão para navegador
+### Extention par navigateur
 - Crunchyroll_Premium
 - Crunchyroll_Premium_Kiwi-Browser
 
-#### Instalação
+#### Installation
 - Chrome
-    - Mais ferramentas > Extensões
+    - Autres outils > Extensions
     - Ativar modo programador
     - carregar expandida
     - selecione pasta Crunchyroll_Premium
