@@ -16,11 +16,11 @@
 
 #### Installation
 - Chrome
-    - Autres outils > Extensions
-    - Ativar modo programador
-    - carregar expandida
-    - selecione pasta Crunchyroll_Premium
+    - ["Autres" > "Outils" > "Extensions"](chrome://extensions)
+    - Activer "Mode Développeur"
+    - "Charger une extension non empaquetée" 
+    - Selectionnez le dossier "Crunchyroll_Premium"
 - Kiwi Browser
-    - Extensões
-    - ativar modo desenvolvedor
-    - load Crunchyroll_Premium_Kiwi-Browser
+    - Extensions
+    - Activez le mode développeur
+    - Selectonnez "Crunchyroll_Premium_Kiwi-Browser"
