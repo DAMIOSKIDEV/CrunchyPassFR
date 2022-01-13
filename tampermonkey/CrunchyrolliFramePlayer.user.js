@@ -3,12 +3,12 @@
 // @namespace    http://tampermonkey.net/
 // @version      1.0.3
 
-// @homepageURL  https://github.com/itallolegal/crp-iframe-player
+// @homepageURL  https://github.com/DAMIOSKIDEV/CrunchyPassFR
 
-// @supportURL   https://github.com/itallolegal/crp-iframe-player/issues
+// @supportURL   https://github.com/DAMIOSKIDEV/CrunchyPassFR/issues
 
 
-// @description  Este script Permite ver todos os vídeos do site crunchyroll gratuitamente.			Nota(JarEd):	Apenas modifiquei um pouco do código para UserScript, o código original é disponibilizado pelo itallolegal no github em extensão para mobile e desktop, confira a url de download.
+// @description  Ce script permet de regarder toutes les vidéos sur Crunchyroll gratuitement que ce soit premium ou non, ce script ne marche que sur la version originale de Crunchyroll et non la Bêta.
 
 // @author       JarEdMaster
 
@@ -61,19 +61,19 @@ function importPlayer(){
 
 		
 		if (document.body.querySelector(".freetrial-note") != null) {
-			console.log("[CR Premium] Removendo Free Trial Note...");
+			console.log("[CR Premium] Suppression de la note pour l'essai gratuit...");
 			document.body.querySelector(".freetrial-note").style.display = "none";
 		}
 
 	
 		if(document.body.querySelector(".showmedia-trailer-notice") != null){
-			console.log("[CR Premium] Removendo Trailer Notice...");
+			console.log("[CR Premium] Suppression de la vignette...");
 			document.body.querySelector(".showmedia-trailer-notice").style.display = "none";
 		}
 
 		
 		if(document.body.querySelector("#showmedia_free_trial_signup") != null){
-			console.log("[CR Premium] Removendo Free Trial Signup...");
+			console.log("[CR Premium] Suppression de l'inscription à l'essai gratuit...");
 			document.body.querySelector("#showmedia_free_trial_signup").style.display = "none";
 		}
 
