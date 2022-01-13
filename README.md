@@ -16,7 +16,7 @@
 
 #### Installation
 - Chrome
-    - ["Autres" > "Outils" > "Extensions"](chrome://extensions)
+    - ["Autres" > "Outils" > "Extensions"](chrome://extensions) / `chrome://extensions/` dans l'URL
     - Activer "Mode Développeur"
     - "Charger une extension non empaquetée" 
     - Selectionnez le dossier "Crunchyroll_Premium"
