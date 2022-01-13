@@ -35,11 +35,11 @@ function pegaString(str, first_character, last_character) {
 }
 
 function importPlayer(){
-		console.log("[CR Premium] Removendo player da Crunchyroll...");
+		console.log("[CR Premium] Suppression du player de Crunchyroll...");
 		var elem = document.getElementById('showmedia_video_player');
     	elem.parentNode.removeChild(elem);
 
-		console.log("[CR Premium] Pegando dados da stream...");
+		console.log("[CR Premium] Aquisition des données du stream...");
 		var video_config_media = JSON.parse(pegaString(HTML, "vilos.config.media = ", ";"));
 
     	console.log("[CR Premium] Adicionando o jwplayer...");
